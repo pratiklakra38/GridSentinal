@@ -2,6 +2,8 @@
 
 EV Charging Network Security & Grid Impact Simulator. An offline academic console based on the supplied research blueprint.
 
+The supplied research PDF stays local and is not included in GitHub commits.
+
 ## Quick start — frontend demo
 
 Only Node.js and npm are required. No Python server or API key is needed for the default demo.
@@ -68,6 +70,6 @@ npx playwright install chromium
 npm test
 ```
 
-Backend test suite: `cd backend; python -m pytest -q --basetemp=../tmp/pytest`.
+Backend test suite: `New-Item -ItemType Directory tmp -Force; cd backend; python -m pytest -q --basetemp=../tmp/pytest`.
 
 No account registration, paid service, watermark or generator attribution appears in the product.

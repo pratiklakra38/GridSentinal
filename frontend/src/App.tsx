@@ -109,6 +109,9 @@ export default function App() {
     [menu, setMenu] = useState(false);
   const lock = useRef(false);
   const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   const setRun = useCallback((r: Run) => {
     setRunState(r);
     localStorage.setItem("gridsentinel.run", r.id);

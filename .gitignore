@@ -14,3 +14,4 @@ frontend/playwright-report/
 *.tsbuildinfo
 tmp/
 .env
+overleaf_project.pdf
