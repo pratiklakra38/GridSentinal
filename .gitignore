@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.db
+*.db-shm
+*.db-wal
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+*.log
+tmp/
+.env
